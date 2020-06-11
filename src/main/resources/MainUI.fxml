@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" prefHeight="700.0" prefWidth="700.0" style="-fx-background-color: #ddd;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainController">
+   <VBox alignment="CENTER" layoutX="398.0" layoutY="250.0" spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <HBox alignment="CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <StackPane fx:id="tile00" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab00">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile01" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab01">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile02" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab02">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+      </HBox>
+      <HBox alignment="CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+         <StackPane fx:id="tile10" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab10">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile11" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab11">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile12" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab12">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+      </HBox>
+      <HBox alignment="CENTER" spacing="20.0" VBox.vgrow="ALWAYS">
+         <StackPane fx:id="tile20" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab20">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile21" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab21">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <StackPane fx:id="tile22" prefHeight="200.0" prefWidth="200.0" styleClass="tile" HBox.hgrow="ALWAYS">
+            <effect>
+               <DropShadow color="#908b8b" offsetX="6.0" offsetY="6.0" />
+            </effect>
+            <Label fx:id="lab22">
+               <font>
+                  <Font name="System Bold" size="70.0" />
+               </font>
+            </Label>
+         </StackPane>
+      </HBox>
+   </VBox>
+</AnchorPane>

@@ -1,2 +1,3 @@
 # Tic-Tac-Toe
-A simple tic tac toe game written in java.
+
+#### A simple GUI based tic tac toe game written in java & Javafx.
